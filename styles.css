@@ -1,0 +1,161 @@
+body,html {
+   
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+        
+
+body {
+            font-family: arial, sans-serif;
+            overflow: hidden;
+           
+        }
+
+        /* user-bar  */
+        .goo {
+            width: 26px;
+            height:30px;
+            display: inline-block;
+            background: url('sprite.png');
+            background-position: -662px -37px;
+         
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        li {
+            list-style: none;
+            margin-left: 10px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 13px;
+        }
+
+        li img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        /* user bar ends here */
+
+      
+        /* content styling */
+      
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 130px;
+        
+        }
+
+        .container img {
+            margin-bottom: 26px;
+        }
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .search-bar {
+            display: box;
+            background: #fff;
+            display: flex;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+            border-radius: 24px;
+            height: 44px;
+            width: 587px;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-bar input {
+            background-color: transparent;
+            border: none;
+            margin: 0;
+            padding: 0;
+            color: rgba(0, 0, 0, .87);
+            outline: none;
+            
+            font-size: 16px;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+
+    
+       
+        .search_icon  {
+            fill: #9aa0a6;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            margin-left: 2px;;
+           
+            
+        }
+
+        .mic_icon {
+            
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            margin-right: 3px;
+           
+        }
+        
+        .btn {
+            background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5f6368;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+            background-color: #f8f8f8;
+            border: 1px solid #c6c6c6;
+            color: #222;
+            }
+
+        .foo {
+            position: absolute;
+            bottom: 0;
+            
+            width: 100%;
+            padding: 2px 20px;
+            color: rgba(0, 0, 0, .54);
+            display: block;
+            font-size: 14px;
+            background-color: #f2f2f2;
+            line-height: 40px;
+            border: 1px solid #e4e4e4;
+            
+        }
