@@ -103,6 +103,7 @@ body {
             /* border-collapse: collapse; */
             font-size: 12px;
             font-family: arial,sans-serif;
+            position: relative;
 
         }
 
@@ -156,6 +157,25 @@ body {
             font-family: monospace;
             font-size: 11px;
             white-space: pre;
+        }
+
+        .jfk-button {
+            position: absolute;
+            left: 667px;
+            margin-top: 20px;
+
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-color: #4d90fe;
+            background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+            background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+            background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+            background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+            background-image: linear-gradient(top,#4d90fe,#4787ed);
+            border: 1px solid #3079ed;
+            color: #fff;
+
         }
 
 

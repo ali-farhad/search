@@ -22,7 +22,7 @@
     <div class="line"></div>
         
     
-        <form action="/search" name="f" method="GET">
+        <form action="https://www.google.com/search" name="f" method="GET">
             <table>
                 <tr>
                   <th></th>
@@ -36,26 +36,28 @@
                 </tr>
                 <tr>
                     <td>all these words:</td>
-                    <td><input type="text" class="text"></td>
+                    <td><input type="text" class="text" name="as_q"></td>
                     <td class="left-text">Type the important words: <span class="code">tri-colour rat terrier</span></td>
                   </tr>
                   <tr>
                     <td>this exact word or phrase:</td>
-                    <td><input type="text" class="text"></td>
+                    <td><input type="text" class="text" name="as_epq"></td>
                     <td class="left-text">Put exact words in quotes: <span class="code">"rat terrier"</span></td>
                   </tr>
                   <tr>
                     <td>any of these words:</td>
-                    <td><input type="text" class="text"></td>
+                    <td><input type="text" class="text" name="as_oq"></td>
                     <td class="left-text">Type <span class="code">OR</span> between all the words you want:<span class="code"> miniature OR standard</span></td>
                   </tr>
                   <tr>
                     <td>none of these words:</td>
-                    <td><input type="text" class="text"></td>
+                    <td><input type="text" class="text" name="as_eq"></td>
                     <td class="left-text">Put a minus sign just before words that you don't want: <span class="code">-rodent, -"Jack Russell"</span></td>
                   </tr>
                   
-                </table>   
+                </table>  
+                <input id="CIGjud" name="tbs" type="hidden" value="">
+                <input class="jfk-button jfk-button-action dUBGpe" style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px" value="Advanced Search" type="submit"> 
         </form>
        
 
